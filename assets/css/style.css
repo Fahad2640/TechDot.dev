@@ -1,19 +1,9 @@
-/**
-* Template Name: ComingSoon
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
+  overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
   color: #fff;
   background: url("../img/bg.jpg") top center no-repeat;
-  background-size: cover;
+  background-size: fill;
   position: relative;
 }
 
@@ -24,7 +14,8 @@ body::before {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(34, 34, 34, 0.8);
+  height: 100vh;
+  width: 100vw;
 }
 
 @media (min-width: 1024px) {
@@ -511,7 +502,6 @@ section {
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
-  position: relative;
 }
 
 #footer .copyright {
